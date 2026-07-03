@@ -63,4 +63,40 @@ import pandas as pd
 
 
 # Day-3
+how to handle data
 
+understand the data 
+
+data cleaning  
+
+in data cleaning we clean redundant and missing values 
+
+Regex- regular expression 
+
+functions of pandas of data cleaning :
+
+method to handle missing values:
+
+df.dropna()  used to drop full row thatvcontain null value 
+
+we can add mean mode median instead of missing or null values 
+
+fill mean when numerical content is there 
+
+fill mode when categorial content is there
+
+now how to handle duplicate rows 
+df.duplicated (if it returns true value for any column it means we have duplicate values 
+ 
+ we can drop it by df=df.drop_duplicates()
+
+  next is to standardize the data it means we have same value but with different spellings they consider it differently 
+
+  df["Gender"]=df['Gender'].str.title()
+
+df['Name']=df['Name'].str.strip() //to remove the extra spaces 
+
+Outliers 
+it means some values are out of range or graph IQR method is mathematical way to handle it 
+
+after applying all the updations we can save the new cleaned dataset into drive o that no dataset will loss 

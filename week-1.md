@@ -99,4 +99,51 @@ df['Name']=df['Name'].str.strip() //to remove the extra spaces
 Outliers 
 it means some values are out of range or graph IQR method is mathematical way to handle it 
 
-after applying all the updations we can save the new cleaned dataset into drive o that no dataset will loss 
+after applying all the updations we can save the new cleaned dataset into drive so that no dataset will loss 
+
+
+
+
+
+#Day-4
+
+EDA - exploratory data analytics 
+
+now after cleaning the dataset next is to analysis the dataset that how many rows and columns are there which values a column contain 
+
+df.shape is used to take the rows and cols of the dataset 
+
+df['dept'].unique() is used to identify the values of the dept 
+
+if we enter nunique then it gives us numeric value of how many values can a column contain 
+
+df['dept'].value_counts() is use to identify that different dept contain how many values 
+
+in analysis we use univariate,bivariate and multivariate  
+
+in univariate we have one single col we can apply mean mode median min max into that 
+
+in bivariate we have one col correspond to one column 
+
+in multivariate one col correspondence to another columnss
+
+crosstab is replace with group by it make tabular and frequency distribution table it is also one col to one col 
+
+corr is also multivariate 
+
+corr= df.corr(numeric_only=True) 
+
+1.0 means perfect +ve correlation 
+
+-1.0 means perfect -ve correlation 
+
+0.0 means no linear correlation 
+
+sorting can also be done by df.sort_values(by='CGPA',Ascending=False) by default ascending is true 
+
+Feature engineering 
+
+in this we have one col on basis of that we create another column 
+df['excellent']=df['cgpa']>=9
+
+this will create column excellent with true and false values 

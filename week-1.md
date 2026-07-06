@@ -147,3 +147,39 @@ in this we have one col on basis of that we create another column
 df['excellent']=df['cgpa']>=9
 
 this will create column excellent with true and false values 
+
+
+
+
+#Day-5
+Data visualisation
+
+it shows relation between variables and graphical representation 
+
+matplotlib and seaborn are two library that are used for data visualisation 
+
+various types of graphs are there to represent data 
+
+histogram-used for numerical and distribution 
+
+Boxplot-used for numerical and outliers and spread
+
+countplot-Categorical	and Frequency Count
+
+Bar Chart-Categorical + Numerical	and Comparison
+
+Pie Chart-	Categorical and	Percentage
+
+Line Chart-Time Series and	Trend
+
+Scatter Plot-Numerical + Numerical and	Relationship
+
+Heatmap-	Numerical	and Correlation
+
+Pair Plot-	Multiple Numerical	and Multiple Relationships
+
+Violin Plot-	Numerical + Category	and Distribution Comparison
+
+KDE Plot	-Numerical and 	Probability Distribution
+
+Area Chart	-Time Series	and Cumulative Trend

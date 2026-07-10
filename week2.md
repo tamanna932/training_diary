@@ -23,3 +23,8 @@ Extract(Extract useful information from an existing feature, such as numbers or 
 Combine(Merge two or more features to create a new, more informative feature.)
 
 I have my dataset in which i use create,encode and extract type of feature engineering  
+
+
+# Day-7
+
+PCA- 

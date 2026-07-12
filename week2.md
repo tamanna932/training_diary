@@ -53,3 +53,20 @@ imbalance class - in categorial col we have multile values so if we have imbalnc
 
 example- the column that ML model predicts we check that type - movie or tv show labelencoder  0 or 1 tv show has values 1400 and movie has values 200 so it is imbalanced we have various balancing techniques 
 
+random over sampling
+
+random under sampling
+
+SMOTE 
+
+TOMEK
+
+adasyn
+
+smote + tomek 
+
+# Day-9
+
+How to detect anomilies and identify patterns
+
+pattern identification , grou comparison, z-score method ,pivot table, clustering 

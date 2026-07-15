@@ -70,3 +70,15 @@ smote + tomek
 How to detect anomilies and identify patterns
 
 pattern identification , grou comparison, z-score method ,pivot table, clustering 
+
+#  Day-10
+Auto EDA tools: in this by using one line it automatically analyse it means we dont need to identify null,duplicate etc 
+
+It has 3 tools 
+
+--ydata profiling- it creates static webpage we dont update it and is less interactive it creates simle html file with all info of the dataset 
+
+sweetviz- it is mainly used for comapring two datasets it is dynamic 
+
+dtale-it is made in react we cannot use it in cloud we can use it in local
+

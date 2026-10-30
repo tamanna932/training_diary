@@ -19,8 +19,10 @@ naive bayes , KNN , SVM , decision tree etc..
 
 # Day - 13
 Project discussion and checking 
+
 when we select any datet there may be correlation in that means one column relate with another
 then check and remove the outliers
+
 duplicate or null or missing handling all that in any dataset is compulsory 
 
 

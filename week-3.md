@@ -15,3 +15,24 @@ logistic regression
 algorithms of classification :
 
 naive bayes , KNN , SVM , decision tree etc..
+
+
+# Day - 13
+Project discussion and checking 
+when we select any datet there may be correlation in that means one column relate with another
+then check and remove the outliers
+duplicate or null or missing handling all that in any dataset is compulsory 
+
+
+# Day - 14
+Decision  Tree:
+Introphy 
+
+gini Index
+
+Overfit means 100% accuracy 
+
+If our dataset shows 100% accuracy then it means our dataset is overfit so we have to change depth or other parameters
+
+
+
